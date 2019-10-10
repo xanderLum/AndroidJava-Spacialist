@@ -111,17 +111,13 @@ public class Constants {
 
     // CURRENCY Converter
     public static final double PESO_TO_USD = 51.94;
-    //    public static final double VAT_12_PERCENT = 0.12;
-//    public static final double VAT_112_PERCENT = 1.12;
     public static final BigDecimal VAT_12_PERCENT = new BigDecimal(0.12);
     public static final BigDecimal VAT_112_PERCENT = new BigDecimal(1.12);
 
 
     //=============URLS=============
     //SERVER
-//    public static final String IP = "http://192.168.43.7/";
-//    public static final String IP = "http://localhost/";
-    public static final String IP = "http://192.168.43.208/";
+    public static final String IP = "<SERVER>";
 
     public static final String APP_NAME = "spacialist/";
 
@@ -147,10 +143,8 @@ public class Constants {
 
     public static final String DEFAULT_SPA_LOGO = IP + "myspa/spacialist/img/blank.png";
 
-    public static final String PAYPAL_CLIENT_ID = "ASHk0Iy6I08WWhloMtgDaAmk4a36tS9694Wl7i--jyT6Tfd8sbWb8IiisCziV_iFfQHH743H5hdt6k6U";
-    public static final String PAYPAL_CLIENT_SECRET = "EHlNbRHKVLynztwk6xAiYwdBOtgezIWkaoVXqOhXJL4CzjRFoA62O47tCZ0E-QLIh_ycem9vstse9pQ-";
-    //public static final String FIREBASE_API_SERVER_KEY = "AAAAkBdogxc:APA91bHAGSVx1M1xgRq2jcnP_txEKo2ifEoc5WY7qs6QDsK4hzvLQ_JaunMHkUy_Dqrf1sG0HCI-WURgStpMfJUX-i9ZL0FZ5m0vvLkuN4gy677srPnnDTdJRs979lbBI4A1SStFlpxY";
-    public static final String FIREBASE_API_SERVER_KEY = "AAAA7-3Opto:APA91bHm0Ksq4UIAGiEzM7bOhR6QSFNb5VaLLwjd1XVpruYY8PevgjsEimvV1sMMkVcu1ZRWmNMuIzrPE4oJNhC9ODOu_S2SAtjxV0vmgWUoP3O0D1tvPTO2_U5MMOMcZHh1tVroqzag";
+    public static final String PAYPAL_CLIENT_ID = "<CLIENT_ID>";
+    public static final String FIREBASE_API_SERVER_KEY = "<SERVER_API_KEY>";
 
     public static final String SUCCESS = "User was created.";
     public static final String FAILURE = "User registration failed.";
