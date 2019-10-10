@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_tab_nav"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".ui.main.ServicesTopNavigationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/logo_background"
+                android:fitsSystemWindows="true"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:tint="@color/text_color_white"
+                app:contentInsetStart="0dp"
+                app:navigationIcon="@drawable/back_to_home_button"
+                app:title="@string/services"
+                app:titleTextColor="#F2B9AE" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/top_navigation"
+                style="@style/Widget.MaterialComponents.TabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:background="?android:attr/windowBackground"
+                app:itemIconTint="@color/design_default_color_secondary"
+                app:itemTextColor="@color/logo_text_app" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<com.google.android.material.tabs.TabLayout
+                android:id="@+id/top_navigation"
+                style="@style/Widget.MaterialComponents.TabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:background="?android:attr/windowBackground"
+                app:itemIconTint="@color/design_default_color_secondary"
+                app:itemTextColor="@color/logo_text_app" />-->
+
+            <!--<FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/top_navigation" />-->
+        </androidx.viewpager.widget.ViewPager>
+
+        <!--<com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/top_navigation"
+
+                app:menu="@menu/services_navigation_menu" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/fragment_container"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:background="?android:attr/windowBackground"
+            app:itemIconTint="@color/design_default_color_secondary"
+            app:itemTextColor="@color/logo_text_app"
+            app:menu="@menu/services_navigation_menu" />-->
+    </LinearLayout>
+</LinearLayout>

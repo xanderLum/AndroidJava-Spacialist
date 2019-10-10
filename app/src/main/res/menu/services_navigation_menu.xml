@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/body_massage"
+        android:enabled="true"
+        android:title="@string/btm_nav_body_massage"
+        app:showAsAction="always" />
+    
+    <item
+        android:id="@+id/foot_massage"
+        android:enabled="true"
+        android:title="@string/btm_nav_foot_massage"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/facial"
+        android:enabled="true"
+        android:title="@string/btm_nav_facial"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nail_service"
+        android:enabled="true"
+        android:title="@string/btm_nav_nail_service"
+        app:showAsAction="always" />
+</menu>

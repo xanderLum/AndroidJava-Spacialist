@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-datatransport:17.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9eae0936c970ee3bd6e37d981b03b211/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9eae0936c970ee3bd6e37d981b03b211/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-datatransport/17.0.2/77036c79e73547ba6dd96fdc5918bf67763f202f/firebase-datatransport-17.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

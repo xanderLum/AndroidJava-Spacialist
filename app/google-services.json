@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030486927066",
+    "firebase_url": "https://spacialist-3f431.firebaseio.com",
+    "project_id": "spacialist-3f431",
+    "storage_bucket": "spacialist-3f431.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030486927066:android:fbbafa3856e695391f27e3",
+        "android_client_info": {
+          "package_name": "com.spacialist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030486927066-ktno85kof51n1hhif754soh0sk8ukbl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG3L4lx0ZgxI5tiPsLeIlpAxNKFTVnykE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030486927066-ktno85kof51n1hhif754soh0sk8ukbl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_color_white"
+    tools:context=".ui.nav.CheckHistoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/logo_background"
+                android:fitsSystemWindows="true"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:textAlignment="center"
+                android:tint="@color/text_color_white"
+                app:contentInsetStart="0dp"
+                app:title="@string/history"
+                app:titleTextColor="#F2B9AE" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/user_history_card" />
+
+            <RelativeLayout
+                style="@style/profileDetailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/selectedDateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/shr_product_title"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceSubtitle1" />
+
+                <ImageView
+                    android:id="@+id/dobImageView"
+                    style="@style/profileDetailsImage"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_dob" />
+            </RelativeLayout>
+
+            <include layout="@layout/spa_business_service_receipt_card" />
+
+            <include layout="@layout/user_card" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pay_button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="16dp"
+                android:text="@string/pay"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            &lt;!&ndash;<TextView
+                android:id="@+id/paypal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                app:icon="@drawable/paypal" />&ndash;&gt;
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pay_button"
+                android:layout_width="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_height="60dp"
+                android:padding="16dp"
+                android:text="@string/pay"
+                android:textAlignment="center" />
+        </LinearLayout>-->
+
+        <TextView
+            android:id="@+id/termsAndConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/tnc"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check History"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"/> -->
+
+</ScrollView>

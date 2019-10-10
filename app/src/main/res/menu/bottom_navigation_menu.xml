@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_book_spa"
+        android:enabled="true"
+        android:icon="@drawable/apple_keyboard_command"
+        android:title="@string/btm_nav_bar_book"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_check_history"
+        android:enabled="true"
+        android:icon="@drawable/clipboard_check_outline"
+        android:title="@string/btm_nav_bar_history"
+        app:showAsAction="ifRoom" />
+
+    <!-- <item
+         android:id="@+id/action_notification"
+         android:enabled="true"
+         android:icon="@drawable/bell_outline"
+         android:title="@string/btm_nav_bar_profile"
+         app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/action_view_profile"
+        android:enabled="true"
+        android:icon="@drawable/account_details"
+        android:title="@string/btm_nav_bar_profile"
+        app:showAsAction="ifRoom" />
+</menu>

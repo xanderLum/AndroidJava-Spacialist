@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Spacialist</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome %s!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_failed">"Registration failed"</string>
+    <string name="update_profile_failed">"Update Profile failed"</string>
+    <string name="search_failed">"Search failed"</string>
+    <string name="no_spa_available">"No available spa business for your selected date and time!"</string>
+    <string name="no_services_available">"No available spa services for your selected date and time!"</string>
+    <string name="no_activities_yet">"You have no bookings yet, book now!"</string>
+    <string name="finding_location">Finding your location..</string>
+    <string name="search_filter">Where do you want to go?</string>
+    <string name="logout">Logout</string>
+
+    <string name="user_heading">Where to, </string>
+    <string name="search">Search</string>
+
+    <!--LOGO related strings-->
+    <string name="spacialist_app_name">Spacialist</string>
+    <string name="tagline">Pampers your wellness needs</string>
+
+    <string name="select_destination">Select destination</string>
+    <string name="auto_complete_placeholder">Location, landmark or street</string>
+    <string name="near_me">Near me</string>
+    <string name="check_in">Check-in</string>
+    <string name="time">Time</string>
+    <string name="calendar">Calendar</string>
+    <string name="select">SELECT</string>
+
+    <string name="api_key">AIzaSyDPeOadJkCGRiUG1TgU1yJ9M1FhfbYnsEk</string>
+
+    <string name="shr_app_name">Shrine</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+
+    <string name="shr_hint_firstname">First Name</string>
+    <string name="shr_hint_lastname">Last Name</string>
+    <string name="shr_hint_phoneNum">Phone Number</string>
+    <string name="shr_hint_address">Address</string>
+    <string name="shr_button_next">Login</string>
+    <string name="shr_button_register">Register</string>
+    <string name="save_button">Save</string>
+    <string name="shr_button_cancel">Cancel</string>
+    <string name="shr_error_password">Password must contain at least 5 characters.</string>
+    <string name="shr_filter_title">Filter</string>
+    <string name="shr_search_title">Search</string>
+    <string name="shr_product_title">Title</string>
+    <string name="shr_product_description">Email</string>
+    <string name="emailHint">Email</string>
+    <string name="transaction_fee">P10.00</string>
+    <string name="label_duration">Duration:</string>
+    <string name="label_selected_staff">Staff:</string>
+    <string name="label_appointment_date">Appointment Date:</string>
+    <string name="label_total_fees">Total Fees:</string>
+
+    <string name="label_net_price">Unit Price:</string>
+    <string name="label_vat_percentage">VAT @12%:</string>
+
+    <string name="label_booking_fee">Booking Fee (incl. VAT):</string>
+
+    <string name="label_client_details">Customer Details</string>
+    <string name="label_full_name">Full Name:</string>
+    <string name="label_email">Email Address:</string>
+    <string name="label_phone_num">Phone Number:</string>
+    <string name="label_address">Home Address:</string>
+
+    <string name="label_appointment_id">Appointment ID:</string>
+    <string name="label_booking_id">Appointment ID:</string>
+    <string name="label_dti_no">Appointment ID:</string>
+
+
+    <string name="label_business_details">Business Details</string>
+    <string name="label_service_details">Service Details</string>
+    <string name="label_payment_details">Payment Details</string>
+    <string name="label_appointment_details">Appointment Details</string>
+
+
+    <string name="email">user@email.com</string>
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_featured_label">Featured</string>
+    <string name="shr_apartment_label">Apartment</string>
+    <string name="shr_accessories_label">Accessories</string>
+    <string name="shr_shoes_label">Shoes</string>
+    <string name="shr_tops_label">Tops</string>
+    <string name="shr_bottoms_label">Bottoms</string>
+    <string name="shr_dresses_label">Dresses</string>
+    <string name="shr_account_label">My Account</string>
+
+    <!--Bottom Navigation Menu-->
+    <string name="btm_nav_bar_book">Book</string>
+    <string name="btm_nav_bar_history">Activities</string>
+    <string name="btm_nav_bar_profile">Profile</string>
+
+    <!--Bottom Navigation Menu-->
+    <string name="btm_nav_body_massage">Body Massage</string>
+    <string name="btm_nav_foot_massage">Foot Massage</string>
+    <string name="btm_nav_facial">Facial</string>
+    <string name="btm_nav_nail_service">Nail Services</string>
+
+    <string name="business">Spa Businesses</string>
+    <string name="services">Services</string>
+    <string name="payment">Payment Details</string>
+    <string name="paymentReceipt">Payment Receipt</string>
+    <string name="paypal">Paypal</string>
+    <string name="pay">Pay</string>
+    <string name="tnc">By proceeding, I agree to Spacialist\'s terms of use and acknowledge their privay policy</string>
+    <string name="paymentConfirmation">Payment Receipt</string>
+    <string name="home">Home</string>
+    <string name="history">Activity</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="select_staff">Select Therapist</string>
+
+    <string name="transaction_date">Transaction Date</string>
+
+
+    <!--FIREBASE Strings-->
+    <!--<string name="app_name">Firebase Cloud Messaging</string>-->
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>>
+
+
+</resources>

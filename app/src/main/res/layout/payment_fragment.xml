@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_color_white"
+    tools:context=".ui.main.PaymentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/logo_background"
+                android:fitsSystemWindows="true"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:tint="@color/text_color_white"
+                app:contentInsetStart="0dp"
+                app:navigationIcon="@drawable/back_to_home_button"
+                app:title="@string/payment"
+                app:titleTextColor="#F2B9AE" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/spa_business_card" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/dobImageView"
+                    style="@style/profileDetailsImage"
+                    android:layout_alignStart="@id/selectedDateTime"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_dob" />
+
+                <TextView
+                    android:id="@+id/selectedDateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/shr_product_title"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceSubtitle1" />
+            </LinearLayout>
+
+            <include layout="@layout/spa_business_service_receipt_card" />
+
+            <include layout="@layout/user_card" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pay_button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="16dp"
+                android:text="@string/pay"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/termsAndConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/tnc"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+</ScrollView>

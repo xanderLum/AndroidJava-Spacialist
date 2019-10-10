@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="logo_background">#1A253F</color>
+    <color name="logo_text_app">#F2B9AE</color>
+    <color name="logo_icon">#EDD7C3</color>
+    <color name="logo_light_mix">#FAF6EC</color>
+
+    <color name="text_color_white">#FFFFFF</color>
+    <color name="text_color_blue">#1FCBFB</color>
+    <color name="text_color_dirtwhite">#DAE2E4</color>
+    <color name="text_color_darkwhite">#6E7D80</color>
+    <color name ="grid_color_background">#E6EFF0</color>
+
+    <!--Shrine-->
+   <!-- <color name="colorPrimary">#E0E0E0</color>
+    <color name="colorPrimaryDark">#FBB8AC</color>
+    <color name="colorAccent">#FEDBD0</color>-->
+    <color name="textColorPrimary">#442C2E</color>
+    <color name="toolbarIconColor">@color/textColorPrimary</color>
+    <color name="loginPageBackgroundColor">#FFFFFF</color>
+    <color name="productGridBackgroundColor">#FFFFFF</color>
+    <color name="textInputOutlineColor">#FBB8AC</color>
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="logout">#FF4500</color>
+
+    <color name="label_appointment_status">#1FCFE2</color>
+    <color name="label_completed_status">#22E01E</color>
+    <color name="label_no_show_status">#E9EA56</color>
+
+    <color name="business_details_bg">#56EA7E</color>
+    <color name="available_services_bg">#B7E7F6</color>
+</resources>
