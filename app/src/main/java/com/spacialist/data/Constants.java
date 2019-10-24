@@ -111,8 +111,6 @@ public class Constants {
 
     // CURRENCY Converter
     public static final double PESO_TO_USD = 51.94;
-    //    public static final double VAT_12_PERCENT = 0.12;
-//    public static final double VAT_112_PERCENT = 1.12;
     public static final BigDecimal VAT_12_PERCENT = new BigDecimal(0.12);
     public static final BigDecimal VAT_112_PERCENT = new BigDecimal(1.12);
 
@@ -120,7 +118,6 @@ public class Constants {
     //=============URLS=============
     //SERVER
     public static final String IP = "<SERVER_IP>";
-
     public static final String APP_NAME = "spacialist/";
 
     //Resister USER API
